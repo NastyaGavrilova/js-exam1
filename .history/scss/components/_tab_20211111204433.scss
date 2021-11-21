@@ -1,0 +1,36 @@
+.c-tab {
+  position: relative;
+  &__wrapper {
+    position: absolute;
+    max-width: 1140px;
+    width: 100px;
+    right: 135px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &__nav {
+    &__ul {
+      max-width: 90px;
+      width: 100%;
+      list-style-type: none;
+    }
+    &__li {
+      max-height: 154px;
+      height: 100%;
+      background-color: $c-light-grey;
+    }
+    &__li > .e-nav__li__item {
+      padding: 60px 30px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 34px;
+    }
+  }
+}
+.c-subdescription__variety-img > img,
+.c-subdescription__high-img > img {
+  max-width: 40px;
+  width: 100%;
+}

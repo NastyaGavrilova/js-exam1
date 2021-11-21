@@ -1,0 +1,17 @@
+extends ./src/_extends/common
+
+block content
+  +header()
+  +features()
+  +coffee()
+  +giftset()
+  +combo()
+block script
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+  script(src="./js/jquery.min.js") 
+  script(src="./js/modal.js")
+  script(src="https://unpkg.com/swiper@7/swiper-bundle.min.js")
+  script(src="./js/tab.js") 
+  script(src="./js/swiper.js") 
+  script(src="./js/video.js")
+

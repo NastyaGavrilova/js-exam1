@@ -1,0 +1,27 @@
+mixin modal-window(args)
+  - let description = args.description;
+  - let className = args.className;
+  - let price = args.price;
+
+  .c-modal-window 
+    .c-modal-window__wrapper 
+      .c-modal-window__title 
+        +title({
+          content:"REVO Morning",
+          classList: "e-title--montserrat",
+        })
+        span.c-modal-window__close#js-btn-close
+      .c-model-window__description 
+        p(class = className)= description 
+      .c-modal-window__price 
+        p.e-slide__price= price
+      .c-modal-window__btn 
+        +button({
+          type: "button",
+          content:"MUA NGAY",
+          classList: "c-button-buy",
+          spanClassList:"c-button-text",
+          //- id:"js-btn-buy",
+        })
+
+

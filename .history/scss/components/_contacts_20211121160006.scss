@@ -1,0 +1,323 @@
+.c-contacts {
+  &__wrapper {
+    padding: 50px 120px 80px 120px;
+    display: flex;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__left {
+    max-width: 560px;
+    width: 100%;
+  }
+  &__left__description {
+    margin-bottom: 10px;
+    .e-contacts__left__description {
+      font-family: $f-nunito-bold;
+      font-style: normal;
+      font-weight: bold;
+      font-size: em(16);
+      line-height: 22px;
+      color: $c-dark-grey;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .c-error-message {
+    font-family: $f-nunito-bold;
+    font-weight: bold;
+    color: rgba(223, 64, 64, 0.795);
+    font-size: em(14);
+    text-align: center;
+  }
+  .c-form--success {
+  }
+  .e-input--error {
+    border: 2px solid rgba(223, 64, 64, 0.795);
+  }
+  &__input,
+  &__textarea {
+    border-radius: 20px;
+    border: 2px solid $c-primary;
+    font-family: $f-nunito-regular;
+    font-size: em(18);
+    padding: 5px;
+    background-color: #d1b39496;
+  }
+  &__textarea {
+    resize: none;
+  }
+  &__btn {
+    border-radius: 20px;
+    border: none;
+    background-color: $c-dark-yellow;
+    max-width: 134px;
+    // width: 100%;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  &__btn-text {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(16);
+    line-height: 22px;
+    text-align: center;
+    color: $c-white;
+  }
+
+  &__right {
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+      font-family: $f-nunito-bold;
+      font-size: em(25);
+      color: $c-dark-grey;
+      margin-bottom: 10px;
+    }
+  }
+  &__socials {
+    max-width: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .e-social__link {
+      text-decoration: none;
+      color: $c-primary;
+      font-size: em(25);
+    }
+  }
+
+  &__email {
+    margin-bottom: 15px;
+    .e-email {
+      font-family: $f-nunito-bold;
+      font-style: normal;
+      font-weight: bold;
+      font-size: em(20);
+      line-height: 22px;
+      text-align: center;
+      color: $c-dark-blue;
+      &__link {
+        text-decoration: none;
+        font-family: $f-nunito-bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: em(16);
+        line-height: 22px;
+        text-align: center;
+        color: $c-primary;
+      }
+    }
+  }
+
+  &__tel {
+    .e-tel {
+      font-family: $f-nunito-bold;
+      font-style: normal;
+      font-weight: bold;
+      font-size: em(20);
+      line-height: 22px;
+      text-align: center;
+      color: $c-dark-blue;
+      &__link {
+        text-decoration: none;
+        font-family: $f-nunito-bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: em(16);
+        line-height: 22px;
+        text-align: center;
+        color: $c-primary;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:750px) {
+  .c-contacts {
+    &__wrapper {
+      padding: 40px 100px 60px 100px;
+    }
+    &__left {
+      max-width: 460px;
+      width: 100%;
+      padding-right: 30px;
+    }
+    &__left__description {
+      margin-bottom: 10px;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+    }
+    &__label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      .e-span__error {
+        font-family: $f-nunito-bold;
+        font-weight: bold;
+        color: rgba(223, 64, 64, 0.795);
+        font-size: em(14);
+        text-align: center;
+      }
+    }
+    &__input,
+    &__textarea {
+      font-size: em(16);
+    }
+    &__btn {
+      max-width: 120px;
+      padding: 8px 10px;
+    }
+    &__right {
+      max-width: 560px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__title {
+        font-size: em(22);
+      }
+    }
+    &__socials {
+      max-width: 60px;
+      width: 100%;
+      .e-social__link {
+        text-decoration: none;
+        color: $c-primary;
+        font-size: em(22);
+      }
+    }
+    &__email {
+      .e-email {
+        font-size: em(18);
+        line-height: 20px;
+        &__link {
+          font-size: em(14);
+          line-height: 20px;
+        }
+      }
+    }
+    &__tel {
+      .e-tel {
+        font-size: em(18);
+        line-height: 20px;
+        &__link {
+          font-size: em(14);
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:650px) {
+  .c-contacts {
+    &__wrapper {
+      padding: 40px 80px 60px 80px;
+    }
+    &__left {
+      max-width: 260px;
+      width: 100%;
+      padding-right: 30px;
+    }
+  }
+}
+@media screen and(max-width:550px) {
+  .c-contacts {
+    &__wrapper {
+      padding: 30px 70px 50px 70px;
+    }
+    &__left {
+      max-width: 230px;
+      width: 100%;
+      padding-right: 30px;
+    }
+  }
+}
+@media screen and(max-width:450px) {
+  .c-contacts {
+    &__wrapper {
+      padding: 30px 30px 50px 30px;
+    }
+    &__btn {
+      max-width: 100px;
+      padding: 8px 10px;
+    }
+    &__btn-text {
+      font-size: em(12);
+      line-height: 20px;
+    }
+    &__label {
+      .e-span__error {
+        font-size: em(10);
+      }
+    }
+    &__input,
+    &__textarea {
+      font-size: em(14);
+    }
+    &__left {
+      max-width: 210px;
+      width: 100%;
+      padding-right: 20px;
+    }
+    &__socials {
+      max-width: 50px;
+      width: 100%;
+      .e-social__link {
+        text-decoration: none;
+        color: $c-primary;
+        font-size: em(20);
+      }
+    }
+    &__email {
+      .e-email {
+        font-size: em(16);
+        line-height: 20px;
+        &__link {
+          font-size: em(14);
+          line-height: 18px;
+        }
+      }
+    }
+    &__tel {
+      .e-tel {
+        font-size: em(16);
+        line-height: 18px;
+        &__link {
+          font-size: em(14);
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:400px) {
+  .c-contacts {
+    &__wrapper {
+      padding: 30px 30px 50px 30px;
+    }
+    &__left {
+      max-width: 180px;
+      width: 100%;
+      padding-right: 20px;
+    }
+  }
+}

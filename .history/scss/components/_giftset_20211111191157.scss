@@ -1,0 +1,18 @@
+.c-giftset {
+  position: relative;
+  &__wrapper {
+    position: absolute;
+    background-color: $c-light-grey;
+    max-width: 1080px;
+    width: 100%;
+  }
+  &__title {
+    position: absolute;
+    padding-top: 82px;
+    text-align: center;
+    left: 580px;
+    max-width: 224px;
+    width: 100%;
+    right: 270px;
+  }
+}

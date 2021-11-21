@@ -1,0 +1,19 @@
+.e-logo {
+  &__img {
+    max-width: 124px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .e-logo {
+    background-color: $c-absolute-white;
+  }
+}
+// @media screen and (max-width: 1250px) {
+//   .e-logo {
+//     // &__wrapper {
+//     //   position: absolute;
+//     //   padding: 50px 0 0 50px;
+//     // }
+//   }
+// }

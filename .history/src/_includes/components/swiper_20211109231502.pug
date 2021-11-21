@@ -1,0 +1,19 @@
+mixin swiper()
+  .swiper.swiper__first
+    .swiper-wrapper
+      .swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product1.png",
+          price: "99.000",
+          title: "REVO Morning",
+          description:"đắng, hậu ngọt, hương hoa",
+        })
+      .swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product2.png",
+          price: "85.000",
+          title: "REVO Everyday",
+          description:"cân bằng, hậu đắng, vị chocolate ",
+        }) 
+    .swiper-button-next#js-swiper-next
+

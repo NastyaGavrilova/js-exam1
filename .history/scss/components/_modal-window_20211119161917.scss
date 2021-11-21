@@ -1,0 +1,62 @@
+.c-modal-window {
+  &__wrapper {
+    background-color: #fefefe;
+    /* 15% сверху и по центру */
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    max-width: 700px;
+    width: 100%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__description {
+    margin-bottom: 20px;
+  }
+  &__buy {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__price > .e-price {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: em(20);
+    line-height: 24px;
+    color: $c-dark-yellow;
+  }
+  &__close {
+    position: relative;
+    float: right;
+    top: -35px;
+    width: 32px;
+    height: 32px;
+    color: $c-primary;
+    cursor: pointer;
+  }
+
+  &__close:before,
+  &__close:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: $c-primary;
+  }
+  &__close:before {
+    transform: rotate(45deg);
+  }
+  &__close:after {
+    transform: rotate(-45deg);
+  }
+  // &__show {
+
+  // }
+}
+
+@media screen and (max-width: ) {
+}

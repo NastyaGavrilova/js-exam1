@@ -1,0 +1,27 @@
+.c-combo {
+  position: relative;
+  &__wrapper {
+    max-width: 1075px;
+    width: 100%;
+  }
+
+  &__title {
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 64px;
+    text-align: center;
+    left: 580px;
+    max-width: 224px;
+    width: 100%;
+    right: 270px;
+  }
+  &__right {
+    max-width: 325px;
+    width: 100%;
+    background-color: $c-primary;
+    float: right;
+    min-height: 906px;
+    height: 100%;
+    z-index: 1;
+  }
+}

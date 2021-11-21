@@ -1,0 +1,16 @@
+mixin combo()
+  .c-combo 
+    .c-combo__wrapper 
+      .c-combo__title 
+        +title({
+          classList:"e-title--nunito",
+          content:"Your Personalized Coffee",
+        })
+        +title({
+          classList:"e-title--montserrat",
+          content:"COMBO PHIN PHÊ",
+        })
+      .c-combo__swiper
+        +combo-swiper() 
+
+//- .c-combo__right 

@@ -1,0 +1,48 @@
+mixin navigation()
+  nav.c-navigation 
+    .c-navigation__wrapper
+      .c-navigation__burger(id="js-burger")
+        i
+        i 
+        i
+      .c-navigation__right(id="js-nav")
+        .c-navigation__cart(id="js-navigation-cart") 
+          .c-cart__wrapper
+            .c-cart__counter 
+              span#e-counter 2
+            .c-cart__img 
+              img(src="./assets/images/cart.svg" alt="cart")
+          i.fas.fa-times(id="js-nav-close") 
+        .c-navigation__items(id="js-navigation-items") 
+          .c-navigation__item 
+          +link({
+            text: 'TRANG CHỦ',
+
+          })
+          .c-navigation__item 
+            +link({
+              text: 'COFFEE',
+              href:"#js-features",
+
+            })
+          .c-navigation__item 
+            +link({
+              text: 'PHIN MẠ MÀU',
+              href:"#js-coffee",
+
+            })
+          .c-navigation__item 
+            +link({
+              text: 'COMBO PHIN PHÊ',
+              href:"#js-combo",
+            })
+          .c-navigation__item 
+            +link({
+              text: 'GIFTSET',
+              href:"#js-giftset",
+            })
+          .c-navigation__item 
+            +link({
+              text: 'LIÊN HỆ',
+              href:"#js-location",
+            })

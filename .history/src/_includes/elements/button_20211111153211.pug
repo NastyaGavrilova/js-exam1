@@ -1,0 +1,6 @@
+mixin button(args)
+  - let text = args.text || 'Default button text';
+  - let id = args.id;
+
+  button.e-button(id= id)
+    span= text

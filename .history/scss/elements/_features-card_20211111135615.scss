@@ -1,0 +1,34 @@
+.e-features__card-icon {
+  position: relative;
+  max-width: 80px;
+  width: 100%;
+  padding-bottom: 41px;
+}
+.e-features__card-title {
+  font-family: $f-nunito-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: $c-dark-grey;
+  padding-bottom: 10px;
+}
+.e-features__card-description {
+  text-align: center;
+  font-family: $f-nunito-regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: $c-dark-grey;
+}
+
+@keyframes coffe {
+  from {
+    top: 3px;
+  }
+  to {
+    top: ;
+  }
+}

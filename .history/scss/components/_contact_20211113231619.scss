@@ -1,0 +1,18 @@
+.c-contact {
+  &__wrapper {
+    padding: 0px 120px 80px 120px;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__map {
+    padding: 50px;
+
+    height: 100%;
+    width: 100%;
+  }
+  #js-map {
+    max-width: 560px;
+    height: 500px;
+  }
+}

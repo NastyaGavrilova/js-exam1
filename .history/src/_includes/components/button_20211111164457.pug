@@ -1,0 +1,7 @@
+mixin button(args)
+  - let content = args.content;
+  - let classList = args.classList;
+  - let spanClassList = args.spanClassList;
+  - let id = args.id;
+    button(class= classList, id= id)
+      span(class= spanClassList)= content

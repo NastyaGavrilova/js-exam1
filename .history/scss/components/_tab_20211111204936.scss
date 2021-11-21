@@ -1,0 +1,38 @@
+.c-tab {
+  position: relative;
+  &__wrapper {
+    position: absolute;
+    max-width: 1140px;
+    width: 100%;
+    box-shadow: 1px 0px 10px rgba(205, 205, 205, 0.5);
+    right: 135px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &__nav {
+    &__ul {
+      // max-width: 90px;
+      // width: 100%;
+      list-style-type: none;
+    }
+    &__li {
+      // max-height: 154px;
+      // height: 100%;
+      background-color: $c-light-grey;
+    }
+    &__li > .e-nav__li__item {
+      padding: 60px 30px;
+      font-family: $f-montserrat;
+      font-style: normal;
+      font-weight: 900;
+      font-size: em(30);
+      line-height: 34px;
+      color: #bbc2cb;
+    }
+  }
+}
+.c-subdescription__variety-img > img,
+.c-subdescription__high-img > img {
+  max-width: 40px;
+  width: 100%;
+}

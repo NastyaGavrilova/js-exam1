@@ -1,0 +1,46 @@
+.c-giftset {
+  position: relative;
+  &__wrapper {
+    // position: absolute;
+    background-color: $c-light-grey;
+    max-width: 1080px;
+    width: 100%;
+  }
+  &__title {
+    position: relative;
+    padding-top: 82px;
+    padding-bottom: 66px;
+    text-align: center;
+    left: 580px;
+    max-width: 224px;
+    width: 100%;
+    right: 270px;
+  }
+  // &__tab {
+
+  // }
+}
+@media screen and (max-width: 1150px) {
+  .c-giftset {
+    position: initial;
+    &__title {
+      // position: relative;
+      padding-top: 0;
+      padding-bottom: 66px;
+      text-align: center;
+      // left: 580px;
+      max-width: 224px;
+      width: 100%;
+      // right: 270px;
+    }
+    // position: relative;
+    &__wrapper {
+      // position: absolute;
+      background-color: $c-light-grey;
+      max-width: 1150px;
+      width: 100%;
+      margin-top: 82px;
+      padding: 0px 100px 100px 100px;
+    }
+  }
+}

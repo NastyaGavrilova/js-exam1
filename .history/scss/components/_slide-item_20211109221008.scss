@@ -1,0 +1,15 @@
+.slide-item {
+  display: flex;
+  flex-direction: row;
+  &__wrapper {
+    max-width: 560px;
+    width: 100%;
+    background-color: #fff;
+  }
+  &__right-img {
+    max-width: 235px;
+    width: 100%;
+    background-color: $c-light-grey;
+    display: flex;
+  }
+}

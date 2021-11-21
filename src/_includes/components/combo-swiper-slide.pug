@@ -1,0 +1,33 @@
+mixin combo-swiper-slide(args)
+  -let src = args.src;
+  -let price = args.price;
+  -let lastPrice = args.lastPrice;
+  -let title = args.title;
+  -let description = args.description; 
+  -let type = args.type;
+  -let content = args.content;
+  -let contentName = args.contentName;
+  -let classList = args.classList;
+  -let className = args.className;
+  -let spanClassName = args.spanClassName;
+  -let spanClassList = args.spanClassList;
+  -let id = args.id;
+  -let idName = args.idName;
+    .c-combo-swiper-slide
+      .c-combo-swiper-slide__wrapper 
+        .c-combo-swiper-slide__img 
+          img(src=src).c-combo-swiper-slide__image
+        .c-combo-swiper-slide__content 
+          .c-combo-swiper-slide__prices 
+            p.e-combo-price=price
+            p.e-last-price=lastPrice 
+          .c-combo-swiper-slide__title 
+            h4.e-combo-title= title 
+          .c-combo-swiper-slide__decription 
+            p.e-combo-description= description 
+          .c-combo-swiper-slide__buttons 
+            button(class= className, type= type, id= idName)
+              span(class= spanClassName)= contentName 
+            button(class= classList, type= type, id= id)
+              span(class= spanClassList)= content
+

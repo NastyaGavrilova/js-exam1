@@ -1,0 +1,125 @@
+.c-navigation {
+  color: $c-white;
+
+  &__wrapper {
+    background-color: $c-primary;
+  }
+  &__right {
+    max-width: 285px;
+    width: 100%;
+  }
+  &__burger {
+    display: none;
+  }
+  &__cart {
+    padding: 72px 187px 118px 98px;
+  }
+  &__close {
+    display: none;
+  }
+
+  &__items {
+    padding: 0 87px 186px 57px;
+  }
+  &__item {
+    padding-top: 40px;
+  }
+  &__item:first-child {
+    padding-top: 0;
+  }
+}
+.c-cart__counter {
+  max-width: 40px;
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 1280px) {
+  .c-navigation {
+    &__right {
+      max-width: 185px;
+      width: 100%;
+    }
+    &__cart {
+      padding: 60px 125px 90px 60px;
+    }
+    &__items {
+      padding: 0px 57px 130px 57px;
+    }
+  }
+}
+@media screen and (max-width: 1065px) {
+  .c-navigation {
+    &__items {
+      padding: 0px 40px 179px 40px;
+    }
+  }
+}
+@media screen and (max-width: 510px) {
+  .c-navigation {
+    &__right {
+      max-width: 145px;
+      width: 100%;
+    }
+    &__items {
+      padding: 0px 25px 100px 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .c-navigation {
+    &__wrapper {
+      background: none;
+    }
+    &__right {
+      display: none;
+      background-color: $c-primary;
+      position: fixed;
+      right: 0;
+      max-width: 145px;
+      height: 100vh;
+      z-index: 4;
+      width: 100%;
+    }
+    &__cart {
+      padding: 35px 20px;
+      display: flex;
+    }
+    &__items {
+      padding: 0px 25px 100px 25px;
+    }
+    &__item {
+      padding-top: 15px;
+    }
+    &__burger {
+      position: relative;
+      display: inline-block;
+      top: 70px;
+      margin: 3px;
+      cursor: pointer;
+    }
+    &__close {
+      display: block;
+      color: $c-absolute-white;
+      font-size: em(16);
+    }
+
+    &__burger i {
+      display: block;
+      width: 30px;
+      height: 6px;
+      margin: 4px auto;
+      background: $c-dark-blue;
+    }
+    // .show {
+    //   display: block;
+    // }
+    // &__wrapper {
+    //   // max-width: 145px;
+    //   // width: 100%;
+    // }
+    // &__items {
+    //   padding: 0px 25px 100px 25px;
+    // }
+  }
+}

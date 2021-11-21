@@ -1,0 +1,12 @@
+.c-combo-swiper-slide {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    background-color: $c-light-grey;
+  }
+  &__content {
+    padding: ;
+  }
+}

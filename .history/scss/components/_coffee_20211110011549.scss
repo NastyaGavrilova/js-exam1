@@ -1,0 +1,30 @@
+.c-coffee {
+  position: relative;
+  // &__wrppaer{
+
+  // }
+  &__title {
+    position: absolute;
+    max-width: 331px;
+    width: 100%;
+    text-align: center;
+    left: 537px;
+    padding-top: 90px;
+  }
+
+  &__rectangle {
+    position: relative;
+    float: left;
+    min-height: 894px;
+    height: 100%;
+    max-width: 384px;
+    width: 100%;
+    background-color: #415167;
+  }
+  &__swiper {
+    position: relative;
+    padding-top: 222px;
+    z-index: 2;
+    left: -245px;
+  }
+}

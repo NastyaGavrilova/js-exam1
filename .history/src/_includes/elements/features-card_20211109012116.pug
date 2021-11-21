@@ -1,0 +1,10 @@
+mixin features-card(args)
+  -let src = args.src;
+  -let titleCard = args.titleCard;
+  -let description = args.description;
+  -let className = args.className;
+
+  if(className == "e-features__icon")
+    h2.e-features__card-title=titleCard
+
+

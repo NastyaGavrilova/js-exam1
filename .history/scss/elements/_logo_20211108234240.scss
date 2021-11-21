@@ -1,0 +1,22 @@
+.e-logo {
+  &__wrapper {
+    position: absolute;
+    padding: 72px 0 0 135px;
+  }
+  &__img {
+    max-width: 124px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .e-logo {
+    &__wrapper {
+      position: absolute;
+      padding: 50px 0 0 50px;
+    }
+    &__img {
+      max-width: 124px;
+      width: 100%;
+    }
+  }
+}

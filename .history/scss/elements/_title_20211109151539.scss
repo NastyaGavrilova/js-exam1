@@ -1,0 +1,17 @@
+.e-title {
+  color: $c-primary;
+  font-family: $f-montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 70px;
+  margin: 0;
+
+  &__background {
+    background-color: $c-dark-yellow;
+    color: white;
+  }
+}
+
+.e-features__subtitle {
+}

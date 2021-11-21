@@ -1,0 +1,27 @@
+mixin modal-window(args)
+  - let description = args.description;
+  - let className = args.className;
+  - let price = args.price;
+  - let title = args.title;
+  - let classList = args.classList;
+  - let id = args.id;
+
+  .c-modal-window
+    .c-modal-window__wrapper 
+      .c-modal-window__title 
+        h3(class=classList)= title
+        span.c-modal-window__close(id= id)
+      .c-modal-window__description 
+        p(class = className)= description 
+      .c-modal-window__buy 
+        .c-modal-window__price 
+          p.e-price= price
+        .c-modal-window__btn 
+          +button({
+            type: "button",
+            content:"MUA NGAY",
+            classList: "c-button-buy",
+            spanClassList:"c-button-text",
+          })
+
+

@@ -1,0 +1,10 @@
+.c-button {
+  &-buy {
+    border-radius: 20px;
+    border: none;
+    background-color: $c-dark-yellow;
+  }
+  &-text {
+    padding: 8px 15px;
+  }
+}

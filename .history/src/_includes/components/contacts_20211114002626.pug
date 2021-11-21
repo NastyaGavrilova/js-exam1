@@ -1,0 +1,19 @@
+mixin contacts()
+  .c-contacts 
+    .c-contacts__title 
+      +title({
+        classList:"e-title--montserrat",
+        content:"CONTACTS",
+      })
+    .c-contacts__wrapper
+      .c-contacts__left 
+        .c-contacts__left__description 
+          p.e-contacts__left__description Questions? Feedback?
+          p.e-contacts__left__description
+        form.c-contacts__form(action="#" method = "GET")
+          input(type="text" placeholder="Name").c-contacts__input
+          input(type="email" placeholder="E-mail").c-contacts__input.c-contacts__input--email
+          textarea(name="message" cols="30" rows="10" placeholder="Message...").c-contacts__textarea
+          button(type="submit").c-contacts__btn#js-contacts__btn
+            span.c-contacts__btn-text SEND
+      .c-contacts__right 

@@ -1,0 +1,40 @@
+.c-filter {
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+  &__price,
+  &__title {
+    margin-bottom: 12px;
+  }
+  &__price,
+  .e-price {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: em(20);
+    line-height: 24px;
+    color: $c-dark-yellow;
+  }
+  &__title,
+  .e-tab-title {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(24);
+    line-height: 28px;
+    color: $c-dark-blue;
+  }
+  &__description {
+    margin-bottom: 42px;
+  }
+  &__description,
+  .e-description {
+    font-family: $f-nunito-regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: em(16);
+    line-height: 22px;
+    color: $c-dark-grey;
+  }
+}

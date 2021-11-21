@@ -1,0 +1,20 @@
+.c-features {
+  &__wrapper {
+    padding: 87px 148px 128px 148px;
+  }
+
+  &__title {
+    text-align: center;
+    padding-bottom: 72px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cards-item {
+    max-width: 226px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

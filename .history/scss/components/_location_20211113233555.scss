@@ -1,0 +1,41 @@
+.c-location {
+  &__wrapper {
+    padding: 0px 120px 80px 120px;
+    display: flex;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__map {
+    padding-top: 50px;
+    padding-right: 50px;
+
+    height: 100%;
+    width: 100%;
+  }
+  #js-map {
+    max-width: 560px;
+    height: 500px;
+  }
+  &__content {
+    max-width: 560px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.c-content {
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__title,
+  .e-content__title {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(24);
+    line-height: 28px;
+    color: $c-dark-blue;
+  }
+}

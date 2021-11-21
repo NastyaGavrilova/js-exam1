@@ -1,0 +1,28 @@
+.c-navigation {
+  color: $c-white;
+
+  &__wrapper {
+    background-color: $c-primary;
+    float: right;
+    max-width: 285px;
+    width: 100%;
+  }
+  &__cart {
+    padding: 72px 187px 118px 98px;
+  }
+
+  &__items {
+    padding: 0 87px 186px 57px;
+  }
+  &__item {
+    padding-top: 40px;
+  }
+  &__item:first-child {
+    padding-top: 0;
+  }
+}
+.c-cart__counter {
+  max-width: 40px;
+  width: 100%;
+  display: block;
+}

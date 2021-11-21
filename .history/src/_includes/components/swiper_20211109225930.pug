@@ -1,0 +1,34 @@
+mixin swiper()
+  .swiper
+    .swiper-wrapper
+      .swiper-slide
+        +slide-item({
+          src:"./assets/images/coffe-product1.png",
+          price: "99.000",
+          title: "REVO Morning",
+          description:"đắng, hậu ngọt, hương hoa",
+        })
+      .swiper-slide
+        +slide-item({
+          src:"./assets/images/coffe-product2.png",
+          price: "85.000",
+          title: "REVO Everyday",
+          description:"cân bằng, hậu đắng, vị chocolate ",
+        }) 
+      .swiper-slide
+        +slide-item({
+          src:"./assets/images/coffe-product3.png",
+          price: "139.000",
+          title: "REVO Origin",
+          description:"hậu ngọt, ít đắng, vị chua dâu",
+        })
+      .swiper-slide
+        +slide-item({
+          src:"./assets/images/coffe-product4.png",
+          price: "75.000",
+          title: "REVO Đậm Đà",
+          description:"đậm đà, đắng, truyền thống",
+        })
+
+    .swiper-button-next#js-swiper-next
+

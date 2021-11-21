@@ -1,0 +1,21 @@
+.c-button {
+  &-buy {
+    border-radius: 20px;
+    border: none;
+    background-color: $c-dark-yellow;
+  }
+  &-text {
+    padding: 8px 15px;
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(16);
+    line-height: 22px;
+    text-align: center;
+    color: $c-white;
+  }
+  &-more {
+    border: none;
+    background-color: $c-white;
+  }
+}

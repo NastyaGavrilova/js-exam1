@@ -1,0 +1,21 @@
+extends ./src/_extends/common
+
+block content
+  +header()
+  +features()
+  +coffee()
+  +giftset()
+  +combo()
+  +location()
+  +contacts()
+  +footer()
+block script
+  script(src="./js/modal.js")
+  script(src="./js/map.js") 
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0jcCv5tTIioNPhNwQlJpSAs00ub1R29o&callback=initMap") 
+  script(src="./js/jquery.min.js") 
+  script(src="https://unpkg.com/swiper@7/swiper-bundle.min.js")
+  script(src="./js/tab.js") 
+  script(src="./js/swiper.js") 
+  script(src="./js/video.js")
+

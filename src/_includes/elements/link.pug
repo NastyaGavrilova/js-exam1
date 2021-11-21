@@ -1,0 +1,6 @@
+mixin link(args)
+  - let href = args.href || '#';
+  - let text = args.text || 'Default link text';
+  - let whiteMode = args.whiteMode || false;
+
+  a.e-link(href=href class=`${whiteMode ? 'e-link--white' : ''}`)= text

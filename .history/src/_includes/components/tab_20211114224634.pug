@@ -1,0 +1,107 @@
+mixin tab()
+  .c-tab 
+    .c-tab__wrapper 
+      .c-tab__nav 
+        ul.c-tab__nav__ul
+          li.c-tab__nav__li.active
+            p.e-nav__li__item 1
+          li.c-tab__nav__li.disable  
+            p.e-nav__li__item 2
+          li.c-tab__nav__li.disable  
+            p.e-nav__li__item 3
+      .c-tab__container.tab
+        .c-tab__container__wrapper
+          .c-container__image 
+            img(src="./assets/images/giftset.png" alt="giftest img").e-tab__img
+          .c-container__content 
+            .c-container__price 
+              p.e-price 285.000
+            .c-container__title 
+              h4.e-tab-title Giftset "Cà phê phin Việt Nam"
+            .c-container__description
+              p.e-description Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.
+            .c-container__subdescription 
+              .c-subdescription__variety 
+                .c-subdescription__variety-img 
+                  img(src="./assets/images/IC_coffee.svg" alt="icon coffe")
+                .c-subdescription__variety-text 
+                  p.e-toptext Loại hạt
+                  p.e-subtext Fine Robusta Blend
+              .c-subdescription__high
+                .c-subdescription__high-img 
+                  img(src="./assets/images/IC_Mountain.svg" alt="icon mountain")
+                .c-subdescription__high-text 
+                  p.e-toptext Độ cao
+                  p.e-subtext 700 - 800m
+            .c-container__buttons
+              +button({
+                type:"button",
+                content:"MUA NGAY",
+                classList:"c-tab__btn--buy",
+                spanClassList:"c-tab__btn-text",
+                id:"js-btn-tab1"
+              })
+              +button({
+                type:"button",
+                content:"CHI TIẾT",
+                classList:"c-tab__btn--more",
+                spanClassList:"c-tab__btn-text--dark",
+                id:"js-btn-tab2"
+              })
+        .c-tab__container__image 
+          img(src="./assets/images/giftset.png" alt="giftest img")
+      .c-tab__filter.tab 
+        .c-tab__filter__wrapper
+          .c-filter__price 
+            p.e-price 80.000
+          .c-filter__title 
+            h4.e-tab-title Phin nhôm màu nâu
+          .c-filter__description
+            p.e-description REVO Coffee tự hào là nhà cung cấp phin cà phê nhôm công nghệ anod hóa nhôm đầu tiên tại Việt Nam với nhiều màu sắc, giúp khách hàng lựa chọn màu theo ý thích. Công nghệ anod hóa nhôm để tạo vật liệu anod nhôm cực kỳ bền và độ cứng của nó có thể được xếp sau kim cương. Công nghệ anod hóa nhôm hay quá trình anodizing nhôm đã giúp lớp bề mặt của nhôm cứng, rắn chắc hạn chế trầy xước, không dễ bị ăn mòn, không bị sủi bề mặt trong nước muối, bị mốc, bị mờ.
+          .c-filter__buttons
+            +button({
+              type:"button",
+              content:"MUA NGAY",
+              classList:"c-tab__btn--buy",
+              spanClassList:"c-tab__btn-text",
+              id:"js-btn-tab3"
+            })
+            +button({
+              type:"button",
+              content:"CHI TIẾT",
+              classList:"c-tab__btn--more",
+              spanClassList:"c-tab__btn-text--dark",
+              id:"js-btn-tab4"
+            })
+        .c-tab__filter__image 
+          img(src="./assets/images/filter.png" alt="giftest img") 
+      .c-tab__modern-set.tab
+        .c-tab__modern-set__wrapper 
+          .c-modern-set__price 
+            p.e-price 80.000
+          .c-modern-set__title 
+            h4.e-tab-title Phin nhôm màu nâu
+          .c-modern-set__description
+            p.e-description REVO Coffee tự hào là nhà cung cấp phin cà phê nhôm công nghệ anod hóa nhôm đầu tiên tại Việt Nam với nhiều màu sắc, giúp khách hàng lựa chọn màu theo ý thích. Công nghệ anod hóa nhôm để tạo vật liệu anod nhôm cực kỳ bền và độ cứng của nó có thể được xếp sau kim cương. Công nghệ anod hóa nhôm hay quá trình anodizing nhôm đã giúp lớp bề mặt của nhôm cứng, rắn chắc hạn chế trầy xước, không dễ bị ăn mòn, không bị sủi bề mặt trong nước muối, bị mốc, bị mờ.
+          .c-modern-set__buttons
+            +button({
+              type:"button",
+              content:"MUA NGAY",
+              classList:"c-tab__btn--buy",
+              spanClassList:"c-tab__btn-text",
+              id:"js-btn-tab3"
+            })
+            +button({
+              type:"button",
+              content:"CHI TIẾT",
+              classList:"c-tab__btn--more",
+              spanClassList:"c-tab__btn-text--dark",
+              id:"js-btn-tab4"
+            })
+        .c-tab__modern-set__image 
+          img(src="./assets/images/modern.png" alt="giftest img") 
+
+
+
+
+

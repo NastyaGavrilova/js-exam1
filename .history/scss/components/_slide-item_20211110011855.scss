@@ -1,0 +1,62 @@
+.swiper-slide {
+  filter: drop-shadow(0px 4px 24px rgba(205, 205, 205, 0.5));
+  &__wrapper {
+    max-width: 560px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__left {
+    max-width: 235px;
+    width: 100%;
+    background-color: #edf0f5;
+    display: flex;
+    justify-content: center;
+  }
+  &__right {
+    padding: 42px 42px 42px 0px;
+    // &__wrapper {
+
+    // }
+  }
+  &__price {
+    padding-bottom: 8px;
+  }
+  &__price > .e-slide__price {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: em(20);
+    line-height: 24px;
+    color: $c-dark-yellow;
+  }
+  &__title {
+    padding-bottom: 24px;
+  }
+  &__title > .e-slide__title {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(24);
+    line-height: 28px;
+    color: $c-dark-blue;
+  }
+
+  &__description {
+    padding-bottom: 24px;
+  }
+  &__description > .e-slide__description {
+    font-family: $f-nunito-regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: em(16);
+    line-height: 22px;
+    color: $c-dark-grey;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

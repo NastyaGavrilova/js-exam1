@@ -1,0 +1,8 @@
+.c-giftset {
+  position: relative;
+  &__wrapper {
+    background-color: $c-light-grey;
+    max-width: 1080px;
+    width: 100%;
+  }
+}

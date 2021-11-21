@@ -1,0 +1,13 @@
+.c-contacts {
+  &__wrapper {
+    padding: 0px 120px 80px 120px;
+    display: flex;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__left {
+    max-width: 600px;
+    width: 100%;
+  }
+}

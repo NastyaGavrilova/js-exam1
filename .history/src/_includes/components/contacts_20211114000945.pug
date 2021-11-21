@@ -1,0 +1,13 @@
+mixin contacts()
+  .c-contacts 
+    .c-contacts__wrapper
+      .c-contacts__title 
+        +title({
+          classList:"e-title--montserrat",
+          content:"CONTACTS",
+        })
+      .c-contacts__left 
+        form.c-contacts__form(action="#" method = "GET")
+          input(type="text" placeholder="Name")
+          inpit(type="email" placeholder="E-mail")
+          textarea(name="message" cols="30" rows="10" placeholder="") 

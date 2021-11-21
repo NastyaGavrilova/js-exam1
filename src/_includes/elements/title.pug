@@ -1,0 +1,8 @@
+mixin title(args)
+  - let content = args.content;
+  - let classList = args.classList;
+
+    if(classList == "e-title--montserrat")
+      h2.e-title(class= classList)= content
+    else if(classList == "e-title--nunito")
+      h3.e-title(class= classList)= content

@@ -1,0 +1,37 @@
+mixin contacts()
+  .c-contacts 
+    .c-contacts__title 
+      +title({
+        classList:"e-title--montserrat",
+        content:"CONTACTS",
+      })
+    .c-contacts__wrapper
+      .c-contacts__left 
+        .c-contacts__left__description 
+          p.e-contacts__left__description Questions? Feedback?
+          p.e-contacts__left__description We will replay soon in 1-2 working days.
+        form.c-contacts__form(action="#" method = "GET")
+          input(type="text" placeholder="Name").c-contacts__input
+          input(type="email" placeholder="E-mail").c-contacts__input.c-contacts__input--email
+          textarea(name="message" cols="30" rows="10" placeholder="Message...").c-contacts__textarea
+          button(type="submit").c-contacts__btn#js-contacts__btn
+            span.c-contacts__btn-text SEND
+      .c-contacts__right 
+        .c-contacts__right__title 
+          h4 Socials
+        .c-contacts__socials 
+          a.e-social__link(href= "https://www.instagram.com/revocoffeevietnam/")
+            i.fab.fa-instagram
+          a.e-social__link(href="https://www.facebook.com/revocoffee.vn")
+            i.fab.fa-facebook-square
+        .c-contacts__email 
+          h4.e-email Email: 
+          p.e-email__src info@revocoffee.vn
+        .c-contacts__tel 
+          h4.e-tel Tel: 
+          a.e-tiel__link(href="tel:+84866585980")
+            span.e-tel__link--text 
+
+
+
+

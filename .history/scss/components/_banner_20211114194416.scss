@@ -1,0 +1,157 @@
+.c-banner {
+  &__background {
+    position: relative;
+    max-width: 715px;
+    width: 100%;
+    background: url(../assets/images/banner.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  &__background-hide {
+    display: none;
+  }
+  &__btn-play {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn-stop {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn-video {
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px 20px 20px 23px;
+    position: absolute;
+    z-index: 2;
+    top: 357px;
+    cursor: pointer;
+  }
+  &__btn-video__hide {
+    display: none;
+  }
+  &__btn-video-stop {
+    display: none;
+  }
+
+  &__btn-video-stop__show {
+    border: none;
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 19px;
+    position: absolute;
+    z-index: 3;
+    top: 357px;
+    cursor: pointer;
+  }
+  &__btn-video-stop__show > span {
+    color: $c-dark-yellow;
+    font-weight: bold;
+  }
+  &__video {
+    max-width: 715px;
+    width: 100%;
+  }
+
+  &__btn-video-hide {
+    display: none;
+  }
+  &__title {
+    max-width: 504px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 130px;
+  }
+}
+
+.c-banner__background-hide {
+  display: none;
+}
+#fon {
+  display: none;
+}
+
+#fon-show {
+  display: block;
+  max-width: 715px;
+  width: 100%;
+  // min-height: 768px;
+  max-height: 100%;
+  height: auto;
+  // height: 100%;
+}
+@media screen and (max-width: 1280px) {
+  .c-banner {
+    &__background > img {
+      max-width: 715px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      min-height: 768px;
+      height: 100%;
+    }
+    &__title {
+      max-width: 360px;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      top: 500px;
+      left: 90px;
+    }
+    #fon-show > &__video {
+      max-width: 715px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      min-height: 768px;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .c-banner {
+    // max-width: 790px;
+    // width: 100%;
+    &__title {
+      max-width: 360px;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      top: 500px;
+      left: 20px;
+    }
+    &__background > img {
+      // display: none;
+      // overflow: hidden;
+      // background-size: 100%;
+      min-height: 768px;
+      height: 100%;
+      background-image: url(../assets/images/banner.png);
+      background-color: rgba(255, 255, 255, 0.151);
+    }
+    &__btn-play {
+      display: none;
+    }
+    #fon-show {
+      display: none;
+    }
+  }
+}
+
+// @media screen and (max-width: 1000px) {
+//   .c-banner {
+//     &__btn-play {
+//       display: none;
+//     }
+//   }
+
+// }

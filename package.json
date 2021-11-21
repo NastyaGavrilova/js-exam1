@@ -1,0 +1,25 @@
+{
+  "name": "js-exam1",
+  "version": "2.0.0",
+  "description": "Beetroot Exam for JS 1",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastyaGavrilova/js-exam1.git"
+  },
+  "keywords": [
+    "teamplate",
+    "student",
+    "development",
+    "beetroot"
+  ],
+  "author": "solodkui arthur solodkuIA@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastyaGavrilova/js-exam1issues"
+  },
+  "homepage": "https://github.com/NastyaGavrilova/js-exam1#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
+}

@@ -1,0 +1,88 @@
+.c-banner {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  &__background {
+    max-width: 715px;
+    width: 100%;
+  }
+  &__background-hide {
+    display: none;
+  }
+  &__btn-video {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    top: 357px;
+    left: 329px;
+    cursor: pointer;
+  }
+  &__btn-video__hide {
+    display: none;
+  }
+  &__btn-video-stop {
+    display: none;
+  }
+
+  &__btn-video-stop__show {
+    border: none;
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    top: 357px;
+    left: 329px;
+    cursor: pointer;
+  }
+  &__video {
+    max-width: 715px;
+    width: 100%;
+  }
+
+  &__btn-video-hide {
+    display: none;
+  }
+  &__title {
+    max-width: 504px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 504px;
+    right: 477px;
+  }
+}
+
+.c-banner__background-hide {
+  display: none;
+}
+#fon {
+  display: none;
+}
+
+#fon-show {
+  display: block;
+  max-width: 715px;
+  width: 100%;
+  min-height: 768px;
+  height: 100%;
+  // box-shadow: ;
+}
+@media screen and (max-width: 1250px) {
+  .c-banner {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    &__background {
+      max-width: 690px;
+      width: 100%;
+    }
+  }
+}

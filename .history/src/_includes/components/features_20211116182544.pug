@@ -1,0 +1,38 @@
+mixin features()
+  .c-features#js-features
+    .c-features__wrapper 
+      .c-features__title
+        +title({
+          classList:"e-title--nunito",
+          content:"Your Personalized Coffee",
+        })
+        +title({
+          classList:"e-title--montserrat",
+          content:"COFFEE BUILD YOUR BASE",
+        })
+      .c-features__cards 
+        .c-features__cards-item 
+          +features-card({
+            src:"./assets/images/icon1.svg",
+            titleCard:"Nguồn gốc",
+            description: "Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.",
+
+          })
+        .c-features__cards-item 
+          +features-card({
+            src:"./assets/images/icon2.svg",
+            titleCard:"Chất lượng",
+            description: "Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.",
+          })
+        .c-features__cards-item 
+          +features-card({
+            src:"./assets/images/icon3.svg",
+            titleCard:"Các loại hạt",
+            description: "70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.",
+          })
+        .c-features__cards-item 
+          +features-card({
+            src:"./assets/images/icon4.svg",
+            titleCard:"Pha chế",
+            description: "Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.",
+          })

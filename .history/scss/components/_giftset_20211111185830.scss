@@ -1,0 +1,14 @@
+.c-giftset {
+  position: relative;
+  &__wrapper {
+    background-color: $c-light-grey;
+    max-width: 1080px;
+    width: 100%;
+  }
+  &__title {
+    padding: 85px 268px 66px 584px;
+    max-width: 224px;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+mixin navigation()
+  nav.c-navigation 
+    .c-navigation__wrapper
+      .c-navigation__right
+        .c-navigation__cart 
+          .c-cart__wrapper
+            .c-cart__counter 
+              span#e-counter 2
+            .c-cart__img 
+              img(src="./assets/images/cart.svg" alt="cart") 
+        .c-navigation__items 
+          .c-navigation__item 
+          +link({
+            text: 'TRANG CHỦ'
+            href:"#js-features",
+          })
+          .c-navigation__item 
+            +link({
+              text: 'COFFEE'
+            })
+          .c-navigation__item 
+            +link({
+              text: 'PHIN MẠ MÀU'
+            })
+          .c-navigation__item 
+            +link({
+              text: 'COMBO PHIN PHÊ'
+            })
+          .c-navigation__item 
+            +link({
+              text: 'GIFTSET'
+            })
+          .c-navigation__item 
+            +link({
+              text: 'LIÊN HỆ'
+            })

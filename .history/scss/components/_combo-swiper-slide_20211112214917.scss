@@ -1,0 +1,31 @@
+.c-combo-swiper-slide {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 4px 24px rgba(205, 205, 205, 0.5));
+    max-width: 360px;
+    width: 100%;
+  }
+  &__img {
+    background-color: $c-light-grey;
+  }
+  &__content {
+    padding: 42px;
+    background-color: $c-absolute-white;
+  }
+  &__prices {
+    display: flex;
+  }
+  &__prices,
+  .e-price {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: em(20);
+    line-height: 24px;
+    color: $c-dark-yellow;
+  }
+  &__prices,
+  .e-last-price {
+  }
+}

@@ -1,0 +1,11 @@
+.e-logo {
+  display: block;
+  &__wrapper {
+    align-items: flex-start;
+    display: flex;
+  }
+  &__img {
+    max-width: 124px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+mixin swiper()
+  .swiper-first.swiper
+    .swiper-first__wrapper.swiper-wrapper
+      .swiper-slide-first.swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product1.png",
+          price: "99.000",
+          title: "REVO Morning",
+          description:"đắng, hậu ngọt, hương hoa",
+        })
+      .swiper-slide-first.swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product2.png",
+          price: "85.000",
+          title: "REVO Everyday",
+          description:"cân bằng, hậu đắng, vị chocolate ",
+        }) 
+      .swiper-slide-first.swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product5.png",
+          price: "195.000",
+          title: "REVO Honey",
+          description:"độ ngọt cao, hậu ngọt, chua họ táo",
+        }) 
+    .swiper-button-next#
+  .swiper-second.swiper
+    .swiper-second__wrapper.swiper-wrapper
+      .swiper-slide-second.swiper-slide
+        +swiper-slide({
+          src:"./assets/images/coffe-product3.png",
+          price: "139.000",
+          title: "REVO Origin",
+          description:"hậu ngọt, ít đắng, vị chua dâu",
+        })
+      .swiper-slide-second.swiper-slide 
+        +swiper-slide({
+          src:"./assets/images/coffe-product4.png",
+          price: "75.000",
+          title: "REVO Đậm Đà",
+          description:"đậm đà, đắng, truyền thống",
+        }) 
+      .swiper-slide-second.swiper-slide 
+        +swiper-slide({
+          src:"./assets/images/coffe-product6.png",
+          price: "169.000",
+          title: "REVO Natural",
+          description:"hậu ngọt, hương hoa, vị chua dâu",
+        })
+

@@ -1,0 +1,101 @@
+.c-banner {
+  position: relative;
+  top: 0;
+  left: 400px;
+  &__background {
+    max-width: 715px;
+    width: 100%;
+  }
+  &__background-hide {
+    display: none;
+  }
+  &__btn-video {
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px 20px 20px 23px;
+    position: absolute;
+    z-index: 2;
+    top: 357px;
+    left: 329px;
+    cursor: pointer;
+  }
+  &__btn-video__hide {
+    display: none;
+  }
+  &__btn-video-stop {
+    display: none;
+  }
+
+  &__btn-video-stop__show {
+    border: none;
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 19px;
+    position: absolute;
+    z-index: 3;
+    top: 357px;
+    left: 329px;
+    cursor: pointer;
+  }
+  &__btn-video-stop__show > span {
+    color: $c-dark-yellow;
+    font-weight: bold;
+  }
+  &__video {
+    max-width: 715px;
+    width: 100%;
+  }
+
+  &__btn-video-hide {
+    display: none;
+  }
+  &__title {
+    max-width: 504px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 504px;
+    left: 134px;
+  }
+}
+
+.c-banner__background-hide {
+  display: none;
+}
+#fon {
+  display: none;
+}
+
+#fon-show {
+  display: block;
+  max-width: 715px;
+  width: 100%;
+  min-height: 768px;
+  height: 100%;
+  // box-shadow: ;
+}
+@media screen and (max-width: 1250px) {
+  .c-banner {
+    position: absolute;
+    top: 0;
+    left: 212px;
+    &__background {
+      max-width: 680px;
+      width: 100%;
+    }
+    &__title {
+      max-width: 400px;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      top: 504px;
+      right: 367px;
+    }
+  }
+}

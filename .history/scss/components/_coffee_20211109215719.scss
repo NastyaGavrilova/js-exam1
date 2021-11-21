@@ -1,0 +1,24 @@
+.c-coffee {
+  position: relative;
+  // &__wrppaer{
+
+  // }
+  &__title {
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  &__rectangle {
+    position: relative;
+    float: left;
+    min-height: 786px;
+    height: 100%;
+    top: 0;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    max-width: 384px;
+    width: 100%;
+    background-color: #415167;
+  }
+}

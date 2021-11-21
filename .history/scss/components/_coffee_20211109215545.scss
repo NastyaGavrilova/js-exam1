@@ -1,0 +1,19 @@
+.c-coffee {
+  position: relative;
+  // &__wrppaer{
+
+  // }
+  &__title {
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  &__rectangle {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 384px;
+    width: 100%;
+    background-color: $c-primary;
+  }
+}

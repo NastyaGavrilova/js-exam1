@@ -1,0 +1,17 @@
+.c-coffee {
+  position: relative;
+  // &__wrppaer{
+
+  // }
+  &__title {
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  &__rectangle {
+    float: left;
+    max-width: 384px;
+    width: 100%;
+    background-color: $c-primary;
+  }
+}

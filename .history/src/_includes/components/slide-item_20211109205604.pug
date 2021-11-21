@@ -1,0 +1,39 @@
+mixin slide-item(args)
+  -let src = args.src;
+  -let price = args.content;
+  -let title = args.title;
+  -let description = args.description;
+
+    .slide-item 
+      .slide-item__wrapper
+        .slide-item__right
+          .slide-item__right-img
+            img(src=src, alt="coffe").e-slide__img
+        .slide-item__left 
+          .slide-item__left__wrapper 
+            .slide-item__price
+              p.e-slide__price= price
+            .slide-item__title 
+              h4.e-slide__title= title 
+            .slide-item__description 
+              p.e-slide__description= description
+            .slide-item__buttons 
+              .slide-item__btn--buy
+                +button({
+                  type: "button",
+                  content:"MUA NGAY",
+                  classList: "button-buy",
+                  spanClassList:"button-text"
+                })
+              .slide-item__btn--more
+                +button({
+                  type: "button",
+                  content:"CHI TIẾT",
+                  classList: "button-more",
+                  spanClassList:"button-text--dark"
+                })
+
+
+
+
+

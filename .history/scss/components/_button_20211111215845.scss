@@ -1,0 +1,58 @@
+.c-button {
+  &-buy {
+    border-radius: 20px;
+    border: none;
+    background-color: $c-dark-yellow;
+    margin-right: 18px;
+    // max-width: 134px;
+    // width: 100%;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  &-text {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(16);
+    line-height: 22px;
+    text-align: center;
+    color: $c-white;
+  }
+  &-more {
+    border: none;
+    background-color: #fff;
+    padding: 9px 11px 2px 11px;
+    cursor: pointer;
+  }
+  &-text--dark {
+    font-family: $f-nunito-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: em(16);
+    line-height: 22px;
+    color: $c-primary;
+  }
+}
+
+.c-tab__btn--buy {
+  border-radius: 20px;
+  border: none;
+  background-color: $c-dark-yellow;
+  padding: 8px 47px;
+  cursor: pointer;
+}
+.c-tab__btn--more {
+  border: none;
+  background-color: #fff;
+  padding: 9px 11px 2px 11px;
+  cursor: pointer;
+}
+.c-tab__btn-text {
+  font-family: $f-nunito-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: em(16);
+  line-height: 22px;
+  text-align: center;
+  color: $c-white;
+}

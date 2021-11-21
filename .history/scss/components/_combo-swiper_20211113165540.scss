@@ -1,0 +1,22 @@
+.c-combo-swiper {
+  max-width: 1400px;
+  &__slide {
+    max-width: 360px !important;
+  }
+  // &__slide,
+  // .swiper-slide,
+  .swiper-slide-duplicate-prev,
+  .lasted-item {
+    opacity: 0.5;
+  }
+  &-button-next,
+  .swiper-button-next {
+    top: 30%;
+  }
+  .swiper-slide-duplicate-prev {
+    min-height: 560px;
+    height: 100%;
+  }
+}
+// .lasted-item {
+// }

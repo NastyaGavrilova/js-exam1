@@ -1,0 +1,37 @@
+mixin combo-swiper()
+  .c-combo-swiper.swiper
+    .c-combo-swiper__wrapper.swiper-wrapper 
+    .c-combo-swiper__slide.swiper-slide
+      +combo-swiper-slide({
+        src:"./assets/images/product1.png",
+        price: "147.000",
+        lastPrice:"155.000",
+        title: "Combo Revo Đậm Đà",
+        description:"Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc...",
+        type:"button",
+        contentName:"MUA NGAY",
+        className:"c-button-buy",
+        spanClassName:"c-button-text",
+        idName:"js-swiper-btn1--buy",
+        content:"CHI TIẾT",
+        classList: "c-button-more",
+        spanClassList:"c-button-text--dark",
+        id:"js-swiper-btn1--more",
+      })
+      +combo-swiper-slide({
+        src:"./assets/images/product2.png",
+        price: "147.000",
+        lastPrice:"155.000",
+        title: "Combo Revo Đậm Đà",
+        description:"Hàm lượng caffein trong Revo Đậm Đà đủ mạnh để làm bạn tỉnh táo làm việc...",
+        type:"button",
+        contentName:"MUA NGAY",
+        className:"c-button-buy",
+        spanClassName:"c-button-text",
+        idName:"js-swiper-btn1--buy",
+        content:"CHI TIẾT",
+        classList: "c-button-more",
+        spanClassList:"c-button-text--dark",
+        id:"js-swiper-btn1--more",
+      })
+

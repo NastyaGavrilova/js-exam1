@@ -1,0 +1,14 @@
+.c-tab {
+  position: relative;
+  &__wrapper {
+    max-width: 1140px;
+    width: 100px;
+  }
+  // &__nav {
+
+  // }
+  &__nav__ul {
+    max-width: 90px;
+    width: 100%;
+  }
+}

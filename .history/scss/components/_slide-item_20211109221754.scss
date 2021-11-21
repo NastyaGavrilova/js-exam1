@@ -1,0 +1,21 @@
+.slide-item {
+  &__wrapper {
+    max-width: 560px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+  &__left {
+    max-width: 235px;
+    width: 100%;
+    background-color: $c-light-grey;
+    display: flex;
+    justify-content: center;
+  }
+  &__right {
+    &__wrapper {
+      padding: 42px 42px 42px 0;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.c-combo-swiper {
+  max-width: 1530px;
+  width: 100%;
+  &__slide {
+    max-width: 360px !important;
+  }
+  // &__slide,
+  // .swiper-slide,
+  .swiper-slide-duplicate-prev,
+  .lasted-item,
+  .swiper-slide {
+    opacity: 0.5 !important;
+  }
+}
+// .lasted-item {
+// }

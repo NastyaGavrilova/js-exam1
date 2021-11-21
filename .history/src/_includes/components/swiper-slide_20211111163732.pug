@@ -1,0 +1,38 @@
+mixin swiper-slide(args)
+  -let src = args.src;
+  -let price = args.price;
+  -let title = args.title;
+  -let description = args.description; 
+  -let id = args.id;
+  .swiper-slide__wrapper
+    .swiper-slide__left
+      .swiper-slide__left-img
+        img(src=src, alt="coffe").e-slide__img
+    .swiper-slide__right 
+      .swiper-slide__right__wrapper 
+        .swiper-slide__price
+          p.e-slide__price= price
+        .swiper-slide__title 
+          h4.e-slide__title= title 
+        .swiper-slide__description 
+          p.e-slide__description= description
+        .swiper-slide__buttons 
+          .swiper-slide__btn--buy
+            +button({
+              type: "button",
+              content:"MUA NGAY",
+              classList: "c-button-buy",
+              spanClassList:"c-button-text",
+            })(id= id)
+          .swiper-slide__btn--more
+            +button({
+              type: "button",
+              content:"CHI TIẾT",
+              classList: "c-button-more",
+              spanClassList:"c-button-text--dark",
+            })(id= id)
+
+
+
+
+

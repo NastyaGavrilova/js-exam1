@@ -1,0 +1,64 @@
+.e-banner__title {
+  color: $c-primary;
+  font-family: $f-montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: em(54);
+  line-height: 70px;
+  margin: 0;
+
+  &--background {
+    background-color: $c-dark-yellow;
+    color: white;
+  }
+}
+
+.e-title {
+  &--nunito {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: em(20);
+    line-height: 24px;
+    color: $c-primary;
+  }
+  &--montserrat {
+    font-family: $f-montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: em(30);
+    line-height: 34px;
+    color: $c-primary;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .e-banner__title {
+    color: $c-primary;
+    font-family: $f-montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: em(42);
+    line-height: 70px;
+    margin: 0;
+
+    &--background {
+      background-color: $c-dark-yellow;
+      color: white;
+    }
+  }
+}
+@media screen and (max-width: 1020px) {
+  .e-banner__title {
+    color: $c-dark-grey;
+    font-family: $f-montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: em(42);
+    line-height: 70px;
+    margin: 0;
+  }
+  &--background {
+    background-color: $c-dark-yellow;
+    color: white;
+  }
+}

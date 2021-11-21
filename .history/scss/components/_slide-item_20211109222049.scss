@@ -1,0 +1,32 @@
+.slide-item {
+  &__wrapper {
+    max-width: 560px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+  &__left {
+    max-width: 235px;
+    width: 100%;
+    background-color: $c-light-grey;
+    display: flex;
+    justify-content: center;
+  }
+  &__right {
+    &__wrapper {
+      padding: 42px 42px 42px 0;
+    }
+  }
+  // &__price{
+  //   padding-bottom: 8px;
+  // }
+  &__price > .e-slide__price {
+    font-family: $f-nunito-semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: $c-dark-yellow;
+  }
+}

@@ -1,0 +1,29 @@
+mixin banner()
+  .c-banner 
+    .c-banner__background 
+      img(src="./assets/images/banner.png" alt="banner")
+      .c-banner__btn 
+        button.c-banner__btn-video
+          img(src="./assets/images/Triangle.svg" alt="play")
+        button.c-banner__btn-video-stop
+          span | |
+        video#fon
+          source(src="./assets/video/Coffee-Shop(1).mp4" type="video/mp4").c-banner__video
+    .c-banner__wrapper 
+      .c-banner__title 
+        h1.e-title YOUR
+        h1.e-title.e-title__background PERSONALIZED
+        h1.e-title COFFEE
+  //- .c-banner
+  //-   //- Banner background image
+  //-   .c-banner__background
+  //-     img(src="assets/images/banner-background.png" alt="Banner background").c-banner__background__image
+  //-   .c-banner__wrapper.wrapper
+  //-     .c-banner__content 
+  //-       h1.c-banner__title Come and dance, rewind your happiness
+  //-     .c-banner__dunamic 
+  //-       +button({
+  //-         text: 'Get rsound free'
+  //-       })
+  //-     .c-banner__advantages
+  //-       +advantages()

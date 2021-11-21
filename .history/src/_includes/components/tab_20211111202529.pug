@@ -1,0 +1,52 @@
+mixin tab()
+  .c-tab 
+    .c-tab__wrapper 
+      .c-tab__nav 
+        ul.c-tab__nav__ul
+          li.c-tab__nav__li 
+            p.e-nav__li__item 1
+          li.c-tab__nav__li 
+            p.e-nav__li__item 2
+          li.c-tab__nav__li 
+            p.e-nav__li__item 3
+      .c-tab__container
+        .c-tab__container__wrapper 
+          .c-container__price 
+            p.e-price 285.000
+          .c-container__title 
+            h4.e-tile Giftset "Cà phê phin Việt Nam"
+          .c-container__description
+            p.e-description Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.
+          .c-container__subdescription 
+            .c-subdescription__variety 
+              .c-subdescription__variety-img 
+                img(src="./assets/images/IC_coffee.svg" alt="icon coffe")
+              .c-subdescription__variety-text 
+                p.e-toptext Loại hạt
+                p.e-subtext Fine Robusta Blend
+            .c-subdescription__high
+              .c-subdescription__high-img 
+                img(src="./assets/images/IC_Mountain.svg" alt="icon mountain")
+              .c-subdescription__high-text 
+                p.e-toptext Độ cao
+                p.e-subtext 700 - 800m
+          .c-contaiener__buttons
+            +button({
+              type:"button",
+              content:"MUA NGAY",
+              classList:"c-tab__btn--buy",
+              spanClassList:"c-tab__btn-text",
+              id:"js-btn-tab1"
+            })
+            +button({
+              type:"button",
+              content:"CHI TIẾT",
+              classList:"c-tab__btn--more",
+              spanClassList:"c-tab__btn-text--dark",
+              id:"js-btn-tab2"
+            })
+
+
+
+
+

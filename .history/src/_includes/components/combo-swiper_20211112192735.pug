@@ -1,0 +1,20 @@
+mixin combo-swiper()
+  .c-combo-swiper.swiper
+    .c-combo-swiper__wrapper.swiper-wrapper 
+    .c-combo-swiper__slide.swiper-slide
+      +combo-swiper-slide({
+        src:"./assets/images/product1.png",
+        price: "99.000",
+        title: "REVO Morning",
+        description:"đắng, hậu ngọt, hương hoa",
+        type:"button",
+        contentName:"MUA NGAY",
+        className:"c-button-buy",
+        spanClassName:"c-button-text",
+        idName:"js-swiper-first-btn1--buy",
+        content:"CHI TIẾT",
+        classList: "c-button-more",
+        spanClassList:"c-button-text--dark",
+        id:"js-swiper-first-btn1",
+      })
+

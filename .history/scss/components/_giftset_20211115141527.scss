@@ -1,0 +1,42 @@
+.c-giftset {
+  position: relative;
+  &__wrapper {
+    // position: absolute;
+    background-color: $c-light-grey;
+    max-width: 1080px;
+    width: 100%;
+  }
+  &__title {
+    position: relative;
+    padding-top: 82px;
+    padding-bottom: 66px;
+    text-align: center;
+    left: 580px;
+    max-width: 224px;
+    width: 100%;
+    right: 270px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .c-giftset {
+    position: initial;
+    &__title {
+      position: initial;
+      padding-top: 82px;
+      padding-top: 0;
+      padding-bottom: 66px;
+      text-align: center;
+      max-width: 224px;
+      width: 100%;
+    }
+    &__wrapper {
+      background-color: $c-light-grey;
+      flex-direction: column;
+      padding: 80px 100px;
+      align-items: center;
+      max-width: 1360px;
+      display: flex;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.c-modal-window {
+  &__wrapper {
+    background-color: #fefefe;
+    /* 15% сверху и по центру */
+    margin: 15% auto;
+    padding: 20px;
+    border: 4px solid rgb(37, 177, 130);
+    max-width: 600px;
+    width: 100%; /* Может быть больше или меньше, в зависимости от размера экрана */
+    display: flex;
+    flex-direction: column;
+  }
+  &__close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  // &__show {
+
+  // }
+}

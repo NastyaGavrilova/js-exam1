@@ -2357,6 +2357,9 @@ a {
   padding: 5px;
   background-color: #d1b39496;
 }
+.c-contacts__input .e-input--error, .c-contacts__textarea .e-input--error {
+  border: 2px solid rgba(223, 64, 64, 0.795);
+}
 .c-contacts__textarea {
   resize: none;
 }
